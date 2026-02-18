@@ -93,6 +93,7 @@ alias gcm="git commit -m"
 alias gpl="git pull origin"
 alias gp="git push"
 alias gs="git status"
+alias trigger_ci='git commit -m "trigger ci" --allow-empty && git push'
 
 # NAVIGATION
 alias cd.="cd .."
