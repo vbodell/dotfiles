@@ -106,9 +106,10 @@ alias l="ls -lah --color=auto"
 alias clean_swps="find . -type f -name *.swp -delete"
 alias pjson="python -m json.tool"
 alias py="python3"
+alias tf="terraform"
 alias todo="vim ~/todo.md"
 alias wl="vim ~/worklog.md"
-alias garden="vim -c ':normal 10jo## ttoday' ~/garden.md"
+alias garden="vim -c ':normal 11jo## ttoday' ~/garden.md"
 alias lspath='echo $PATH | tr ":" "\n"'
 alias rss="newsboat"
 alias k='kubectl'
@@ -117,7 +118,7 @@ alias lunch='uvx --from git+https://github.com/engdahl/rhlunch lunch'
 alias copil='copilot --allow-all-tools'
 alias gemiy='gemini --yolo'
 alias tmuxit='tmux new-session -d -s workspace -n server \; new-window -n editor \; new-window -n agent \; attach-session -d'
-
+alias oc='opencode'
 
 # PATH
 # Homebrew
